@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Federant&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Federant', cursive;
+  border: 0;
+  padding: 0;
+  outline: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  color: white;
+ 
+  }
+:root {
+  --dark-green: rgb(90, 202, 90);
+  --faint-green: #a7f3d0;
+}
+
+
+.App {
+  background: url("https://thumbs.dreamstime.com/b/lots-flying-money-wallpaper-dollars-green-background-falling-money-rain-pattern-seamless-texture-vector-illustration-91099995.jpg");
+  
+ 
+
+}
+h1{
+  margin:0;
+}
+.nav{
+  
+  padding: 1rem;
+  margin-bottom: 3rem;
+  background-color: var(--dark-green);
+  border-bottom: rgb(19, 114, 19) solid 3px;
+  z-index: 1;
+}
+
+.nav h1{
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+.footer{
+   height: 10vh;
+  padding: 1rem;
+ position: relative;
+ bottom: 0;
+ width: 100%;
+ margin-top: 5rem;
+  background-color: var(--dark-green);
+  border-top: rgb(19, 114, 19) solid 3px;
+  z-index: 1;
+}
+
+.footer small{
+  position: absolute;
+  right: 4%;
+  bottom: 2%;
+}
+.content{
+  font-family: sans-serif;
+
+  text-align: center;
+
+  min-height: 200px;
+  width: 100%;
+  max-width: 500px;
+
+  margin: auto;
+  padding: 2rem 1rem;
+
+  background-color: var(--dark-green);
+  
+}
+
+.label {
+  padding: 1.5rem 1rem 0.5rem;
+  font-size: 1.3rem;
+  color: rgb(51, 78, 46);
+  font-weight: bolder;
+}
+
+.inputBox {
+  width: 100%;
+  height: 50px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+
+button {
+  margin: 1rem auto 0;
+  display: block;
+
+  font-size: 1rem;
+  font-weight: bold;
+
+  border: none;
+  padding: 0.5rem 1rem;
+
+  color: var(--dark-green);
+  background-color: var(--faint-green);
+}
+
+
+.Notes{
+ 
+font-size: 110%;
+  float: left;
+  color: rgb(51, 78, 46);
+}
+.noNotes{
+margin-left: 5%;
+line-height: 1.7;
+  float: left;
+
+}
+.listParent{
+  text-align: center;
+  justify-content: center;
+  max-width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  height: 5vh;
+}
+
+#output {
+  margin: 1rem 0;
+}
+
+.errorMsg {
+  padding-top: 1rem;
+}
+
+.checkBtn{
+  border: 2px solid rgb(17, 97, 17);
+  border-radius: 0.5rem;
+  color: rgb(51, 78, 46);
+
+}
