@@ -110,7 +110,7 @@ export default function App() {
       <div 
       //style={{ display: `${cashGivenDiv}` }}
       >
-        <div className="label">Cash Given:</div>
+        <div className="label">Cash Tendered:</div>
         <input
         type="number"
           className="inputBox"
