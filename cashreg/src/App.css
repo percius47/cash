@@ -55,7 +55,7 @@ h1{
  position: relative;
  bottom: 0;
  width: 100%;
- margin-top: 5rem;
+ margin-top: 10rem;
   background-color: var(--dark-green);
   border-top: rgb(19, 114, 19) solid 3px;
   z-index: 1;
